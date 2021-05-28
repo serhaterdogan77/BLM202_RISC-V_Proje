@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri May 28 17:05:14 2021
+# Process ID: 12028
+# Current directory: C:/Users/Serhat/OneDrive/Masaüstü/BLM202_proje
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16808 C:\Users\Serhat\OneDrive\Masaüstü\BLM202_proje\riscvVivado.xpr
+# Log file: C:/Users/Serhat/OneDrive/Masaüstü/BLM202_proje/vivado.log
+# Journal file: C:/Users/Serhat/OneDrive/Masaüstü/BLM202_proje\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Serhat/OneDrive/Masaüstü/BLM202_proje/riscvVivado.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_top.tcl
+run all
+close_sim
